@@ -10,7 +10,9 @@
   </head>
     <body>
 
-      <div style="padding: 20px; border: 5px solid red; margin: 20px;">
+      <div>
+
+        <h1>Sample Angular Application</h1>
 
         <div ng-view style="width: 100%"></ng-view>
 
@@ -19,7 +21,9 @@
     </div>
 
     <script src="./scripts/indexController.js"></script>
-    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sampleController.js"></script>
+
+    <script src="./scripts/mainController.js"></script>
 
   </body>
 </html>

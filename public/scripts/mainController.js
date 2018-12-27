@@ -2,14 +2,16 @@
   var myModule = angular.module("myModule", ['ngRoute']);
 
   myModule.controller('indexController', ['$scope', indexController]);
+  myModule.controller('sampleController', ['$scope', sampleController]);
   
   myModule.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+
     $routeProvider.when('/', {
       templateUrl: 'index/index.vash',
       controller: 'indexController'
-    }).when('/other', {
-      templateUrl: 'index/other.vash',
-      controller: 'indexController'
+    }).when('/sample', {
+      templateUrl: 'index/sample.vash',
+      controller: 'sampleController'
     }).otherwise({
       redirectTo: '/'
     });

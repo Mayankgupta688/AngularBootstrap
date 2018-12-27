@@ -1,16 +1,7 @@
 
-  var indexController = function($scope) {
-    
-    $scope.userName = "Mayank";
-    
-    $scope.usersInfo = [{
-      userName: "Mayank",
-      designation: "Developer"
-    }, {
-      userName: "Meha",
-      designation: "Developer"
-    }, {
-      userName: "Anshul",
-      designation: "Developer"
-    }]
-  }
+var indexController = function($scope) {
+  
+  $scope.userSalutation = "Hello Mayank. Welcome to Main Page.";
+  $scope.description = "This is a Sample Angular Application containing Basic Building Blocks";
+
+}

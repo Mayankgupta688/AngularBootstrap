@@ -8,6 +8,7 @@
     "email": "mayankgupta688@gmail.com"
   },
   "dependencies": {
+    "bower": "^1.8.4",
     "express": "~4.13.3",
     "mongodb": "^2.1.4",
     "vash": "~0.11.0"

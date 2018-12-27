@@ -1,3 +1,5 @@
+console.log("Program Started");
+
 // Http is used to create Server to take up the requests
 var http = require('http');
 
@@ -23,3 +25,4 @@ var server = http.createServer(app);
 
 // Apllication is made to listen Http request at port 3000
 app.listen(3000);
+
