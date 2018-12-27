@@ -1,8 +1,8 @@
 
   var myModule = angular.module("myModule", ['ngRoute']);
 
-  myModule.controller('indexController', ['$scope', indexController]);
-  myModule.controller('sampleController', ['$scope', sampleController]);
+  myModule.controller('indexController', ['$scope', '$http', indexController]);
+  myModule.controller('sampleController', ['$scope', '$http', sampleController]);
   
   myModule.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 

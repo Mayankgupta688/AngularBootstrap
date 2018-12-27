@@ -1,3 +1,5 @@
 To run Docker, use following command: "docker run -p 8000:3000 mayankgupta1436/angularbootstrap
 
 If you are running window application, it will run in virtual machine: http://192.168.99.100
+
+To Run: "docker run -p 49160:8080 -d <your username>/node-web-app"

@@ -1,4 +1,9 @@
 <div>
   <h2 ng-bind="userSalutation"></h2>
   <h3 ng-bind="description"></h3>
+
+  <div ng-repeat="employee in employeeDetails">
+    <label ng-bind="employee.name"></label>
+    <img src="{{employee.avatar}}" />
+  </div>
 </div>
